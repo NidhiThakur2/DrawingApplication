@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<Commands>
+	<commandMap>
+		<entry>
+			<key>C</key>
+			<value>
+				<commandString>C</commandString>
+				<parameters>2</parameters>
+				<isDrawable>True</isDrawable>
+				<description>Draws a blank canvas. Usage: C w(width) h(height)</description>
+			</value>
+		</entry>
+		<entry>
+			<key>L</key>
+			<value>
+				<commandString>L</commandString>
+				<parameters>4</parameters>
+				<isDrawable>True</isDrawable>
+				<description>Draws a line on a canvas. Usage: L X1 Y1 X2 Y2</description>
+			</value>
+		</entry>
+		<entry>
+			<key>R</key>
+			<value>
+				<commandString>R</commandString>
+				<parameters>4</parameters>
+				<isDrawable>True</isDrawable>
+				<description>Draws a Rectangle on a canvas. Usage: R x1 y1(lower
+					left) x2 y2(upper right)</description>
+			</value>
+		</entry>
+		<entry>
+			<key>B</key>
+			<value>
+				<commandString>B</commandString>
+				<parameters>3</parameters>
+				<isDrawable>True</isDrawable>
+				<description>fill the entire area connected to (x,y) with \"colour\"
+					c Usage:B x y c</description>
+			</value>
+		</entry>
+		<entry>
+			<key>Q</key>
+			<value>
+				<commandString>Q</commandString>
+				<parameters>0</parameters>
+				<isDrawable>False</isDrawable>
+				<description>Exit the program. Usage: Q </description>
+			</value>
+		</entry>
+		
+	</commandMap>
+</Commands>
+
+
